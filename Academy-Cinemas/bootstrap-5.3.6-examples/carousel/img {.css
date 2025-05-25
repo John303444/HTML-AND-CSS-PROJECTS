@@ -1,0 +1,8 @@
+{
+  filter: grayscale(100%);
+}
+/* Border radius */
+{
+  border: 2px solid red;
+  border-radius: 50px 20px;
+}
