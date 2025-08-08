@@ -69,7 +69,7 @@ document.getElementById('contactForm').addEventListener('submit',
             lastName: lastName,
             email: email,
             phone: phone,
-            message: message
+            message: message,
             subscribe: document.getElementById('subscription').checked
         };
         //Displays what the user wrote in the console
