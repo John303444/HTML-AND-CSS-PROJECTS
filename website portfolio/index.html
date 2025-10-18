@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width" />
-        <title>Your Name Here</title>
+        <title>John Sintas Portfolio</title>
         <link rel="stylesheet" type="text/css" href="Portfolio.css">
     </head>
 
@@ -71,40 +71,39 @@
         <div class="Row" id="GitHub">
             <!--Left column-->
             <div class="Column_1">
-                <h1>GitHub</h1>
+                <h1>Portfolio</h1>
                 <p>
-                    You can view my coding projects on my GitHub profile here:
+                    You can view expierence here:
                     <br>
-                    <p class="center"><a href="https://github.com/the-tech-academy" target="_blank">The Tech Academy Github</a></p>
+                    <p class="center"><a href="https://www.linkedin.com/in/john-sintas-445b3934b/" target="_blank">Linkedin</a></p>
+                     <p class="center"><a href="https://github.com/John303444" target="_blank">GitHub</a></p>
                 </p>
             </div>
             <!--Right column-->
             <div class="Column_2">
-                <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+                <a href="https://github.com/John303444" target="_blank"><img src="images/GitHub2.png" alt="GitHub Logo"></a>
             </div>
         </div>
 
         <!--Contact section-->
-        <div class="Row" id="Contact">
             <!--Contact image, left column-->
-            <div class="Column_2 Column_tall">
-                <img src="images/photo-1515879218367-8466d910aaa4.jpeg" alt="Contact_Image">
-            </div>
+            <div id="Contact">
+            <button id="showFormButton" >Show Contact Form</button>
             <!--Contact form, right column-->
-            <div class="Column_1 Column_tall">
+            <div id="contactFormContainer"style="display:none;">
                 <h1>Contact</h1>
                 <!--This specifies where and how to send the form data; we are leaving it blank-->
                 <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
-                    <label>Name:</label>
-                        <input type="text" placeholder="Please enter your name here">
-                    <label>Email:</label>
+                    <label for="name">Name:</label>
+                        <input type="text" id="Name" name="Name" placeholder="Please enter your name here">
+                    <label for="email">Email:</label>
                         <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
-                    <label>Message:</label>
+                    <label for="message">Message:</label>
                         <input type="text" id="Message" name="Message" placeholder="Please write your message here">
                         <input type="submit" value="SUBMIT">
                 </form>
+                </div>
             </div>
-        </div>
 
         <!--Footer section-->
         <footer>
@@ -113,5 +112,5 @@
                 <br>
             </p>
         </footer>
-    </body>
+   <script src="port.js"></script> </body>
 </html>
